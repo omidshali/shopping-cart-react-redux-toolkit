@@ -1,5 +1,5 @@
 function App() {
-  return <div>Shopping cart</div>;
+  return <div className="bg-gray-100">Shopping cart</div>;
 }
 
 export default App;
