@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --backGround-color: #111111;
+    --primary-button-color: #343434;
+  }
+}
+
+@layer components {
+  .primery-button {
+    background-color: var(--primary-button-color);
+    padding: 6px 20px;
+    border-radius: 5px;
+  }
+}
